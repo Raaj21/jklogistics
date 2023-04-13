@@ -1659,7 +1659,7 @@ textarea {
 
 .support-bar::after {
   position: absolute;
-  content: "";
+  /* content: ""; */
   left: 800px;
   z-index: -111;
   /* right: -50%; */
@@ -1751,7 +1751,7 @@ textarea {
 
 
 .navbar-area::after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   background-color: #1f415f;
   height: 100%;
@@ -2301,6 +2301,30 @@ ul.search-cart-area {
 @media (max-width: 1023px) and (min-width: 768px) {
   .about-one h1 {
     font-size: 50px;
+  }
+}
+
+/* @media (max-width: 991px){
+.navbar-area ul {
+    display: none;
+}
+} */
+
+@media (max-width: 991px) and (min-width: 320px) {
+  .support-bar {
+    display: none;
+  }
+}
+
+/* @media (max-width: 991px) {
+  .navbar-area .main-menu ul {
+    display: none;
+  }
+} */
+
+@media (min-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
   }
 }
 
