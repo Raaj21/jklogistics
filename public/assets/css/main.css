@@ -2168,8 +2168,8 @@ line-height: 81px;
 }
 .rjnew{
      margin-bottom: 80px;
-    margin-top: 80px;   
-    
+    margin-top: 80px;
+
 }
 .page-title-content {
     margin-top: 170px;
@@ -2188,16 +2188,16 @@ line-height: 81px;
     position: fixed;
     z-index: 9999999;
     /* top: 10px; */
-   
+
     bottom: 10px;
 }
 .what img{
     width: 160px;
-   
+
     position: relative;
-  
-    
-    
+
+
+
 }
 
 .header-main-2 {
@@ -2511,7 +2511,7 @@ background: #fcc202;
 }
 .main-menu ul li.menu-item-has-children:after {
   position: absolute;
-  content: "";
+  /* content: ""; */
   font-size: 12px;
   color: #ffffff;
   top: 50%;
@@ -3937,8 +3937,8 @@ background: #fcc202;
 }
  .ab-image {
         display: none;
-     
-     
+
+
  }
 .about__img .p-element .award {
   position: absolute;
@@ -3951,7 +3951,7 @@ background: #fcc202;
   right: 65px;
   top: -70px;
       display: none;
-     
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .about__img .p-element .award {
@@ -9289,8 +9289,8 @@ input.main-search-input::placeholder {
       min-height: 365px;
 }
 .rjtt{
- min-height: 235px !important;   
-    
+ min-height: 235px !important;
+
 }
 .whatt {
     position: fixed;
@@ -9299,16 +9299,16 @@ input.main-search-input::placeholder {
     bottom: 10px;
 }
 .contact-infos{
-    
-  display: none;  
-    
+
+  display: none;
+
 }
 .screen-reader-response{
-    
+
     display: none;
 }
 .wpcf7-response-output{
-    
+
     color: #00830a;
     font-size: 18px;
     font-weight: bold;
@@ -9319,7 +9319,7 @@ input.main-search-input::placeholder {
     background-color: #6e6969;
     color: #fff;
     padding: 10px;
-    
+
 }
 .wpcf7-text{
    background: #f8f8f8;
@@ -9331,8 +9331,8 @@ input.main-search-input::placeholder {
     padding: 10px 20px;
     font-size: 16px;
     line-height: 26px;
-    border: 1px solid transparent; 
-    
+    border: 1px solid transparent;
+
 }
 .wpcf7-submit:hover{
     background-color: #366e1f;
