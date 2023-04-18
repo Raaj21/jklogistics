@@ -4,7 +4,7 @@
   <section class="detail-one">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 col-lg-8 col-xl-6">
           <div class="detail-text">
             <span>SERVICES</span>
             <h1>WE PROVIDE BEST SERVICES</h1>
@@ -104,14 +104,14 @@
   <section class="about-four">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
+        <div class="col-md-6 nil"></div>
+        <div class="col-lg-6 col-12">
           <div class="features">
             <span>FEATURES</span>
             <h2>WHY CHOOSE US</h2>
             <div class="row mt-5 aos-init aos-animate" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (3).png" alt="" class="img-fluid">
+                <img src="../../public/assets/img/New/about-us/unnamed (3).png" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>24/7 SUPPORT</h4>
@@ -122,7 +122,7 @@
 
             <div class="row mt-5 aos-init aos-animate" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (4).png" alt="" class="img-fluid">
+                <img src="../../public/assets/img/New/about-us/unnamed (4).png" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>ON TIME DELIVERY</h4>
@@ -133,7 +133,7 @@
 
             <div class="row mt-5 aos-init aos-animate" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (5).png" alt="" class="img-fluid">
+                <img src="../../public/assets/img/New/about-us/unnamed (5).png" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>GLOBAL SERVICE</h4>

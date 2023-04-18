@@ -4,7 +4,7 @@
  <section class="services-one">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-8 col-lg-8 col-xl-6">
           <div class="service-text">
             <span>Services</span>
             <h1>we provide best services</h1>
@@ -190,8 +190,8 @@
   <section class="about-four">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
+        <div class="col-md-6 nil"></div>
+        <div class="col-lg-6 col-12">
           <div class="features">
             <span>FEATURES</span>
             <h2>WHY CHOOSE US</h2>

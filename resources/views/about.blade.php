@@ -4,7 +4,7 @@
  <section class="about-one">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-8 col-lg-8 col-xl-6">
           <div class="about-text">
             <span>ABOUT US</span>
             <h1>WE ARE TRANSPOT SERVICE PROVIDER</h1>
@@ -57,7 +57,7 @@
           <h2>About</h2>
           <p class="dummy-design">J-ARK will quickly respond to customer needs with grit and passion and become a global logistics company.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
@@ -90,7 +90,7 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
@@ -145,8 +145,8 @@
   <section class="about-four">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
+        <div class="col-md-6 nil"></div>
+        <div class="col-lg-6 col-12">
           <div class="features">
             <span>FEATURES</span>
             <h2>WHY CHOOSE US</h2>
@@ -357,7 +357,7 @@
           </div>
         </div>
 
-        <a href="#devcarousel" role="button" data-slide="prev" class="carousel-control-prev">
+        <!-- <a href="#devcarousel" role="button" data-slide="prev" class="carousel-control-prev">
           <span aria-hidden="true" class="carousel-control-prev-icon">
             <img src="assets/img/New/arrow-left.png" alt="">
           </span>
@@ -367,7 +367,7 @@
           <span aria-hidden="true" class="carousel-control-next-icon">
             <img src="assets/img/New/arrow-right.png" alt="">
           </span>
-        </a>
+        </a> -->
       </div>
 
     </div>
