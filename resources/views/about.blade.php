@@ -372,4 +372,73 @@
 
     </div>
   </section>
+
+  <section class="services-two">
+    <div class="container">
+      <div class="row row-testicont">
+        <div class="col-md-12">
+          <div id="developerCarousel" data-ride="carousel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row rowFix">
+                    <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-1.png')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-2.png')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-3.png')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-4.png')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
+                <div class="row rowFix">
+                    <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-4.png')}}" alt="" class="img-fluid">
+                    </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-3.png')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-2.png')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/partner-1.png')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="footer-up">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h2>REACH YOUR DESTINATION 100% SAFE & SECURE</h2>
+        </div>
+        <div class="col-md-3">
+          <button><a href="#">CONTACT US</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
 @endsection
