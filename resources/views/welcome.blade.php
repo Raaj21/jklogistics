@@ -161,7 +161,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <img src="assets/img/New/ceo.png" alt="" class="ceo-image">
+          <img src="assets/img/New/ceo.jpg" alt="" class="ceo-image">
         </div>
         <div class="col-md-6 offset-md-1">
           <div class="about-con">

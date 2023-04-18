@@ -1023,6 +1023,9 @@ a.boxed-btn:hover::after {
   margin-bottom: 15px;
   line-height: 1.2;
 }
+.service-txt p {
+    text-align: justify;
+}
 
 .single-service p.service-para {
   margin-bottom: 13px;
@@ -1917,6 +1920,7 @@ textarea {
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+  text-align: left;
 }
 
 
