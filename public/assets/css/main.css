@@ -2496,11 +2496,11 @@ background: #fcc202;
 .main-menu ul li:hover a {
   color: #ffc400;
 }
-.main-menu ul li:hover.menu-item-has-children::after {
+/* .main-menu ul li:hover.menu-item-has-children::after {
   color: #ffc400;
   opacity: 1;
   visibility: visible;
-}
+} */
 .main-menu ul li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
@@ -2509,7 +2509,7 @@ background: #fcc202;
 .main-menu ul li.menu-item-has-children {
   position: relative;
 }
-.main-menu ul li.menu-item-has-children:after {
+/* .main-menu ul li.menu-item-has-children:after {
   position: absolute;
   /* content: ""; */
   font-size: 12px;
@@ -2525,7 +2525,7 @@ background: #fcc202;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .main-menu ul li.menu-item-has-children:after {
     right: -10px;

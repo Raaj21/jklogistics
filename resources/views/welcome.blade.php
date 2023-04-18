@@ -5,7 +5,7 @@
 <section class="home-one">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-8 col-lg-8 col-xl-6">
           <div class="hero-text">
             <span class="top">We are J-ARk</span>
             <h1>NO# 1 SOLUTION FOR TRANSPORT</h1>
@@ -24,7 +24,7 @@
         <div class="col-md-6">
           <div class="bac"></div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <div class="features">
             <span>FEATURES</span>
             <h2>WHY CHOOSE US</h2>
@@ -68,7 +68,7 @@
 
   <section class="services-two">
     <div class="container">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <span>OUR SERVICES</span>
         <h2>WHAT WE PROVIDE</h2>
       </div>
@@ -84,7 +84,7 @@
                   <div class="col-lg-4 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
                     <div class="single-service wow fadeInRight">
                       <div class="img-wrapper">
-                        <img src="{{asset($service->image)}}" alt="" class="img-fluid">
+                        <img src="{{asset($service->image)}}" style="height: 228px;" alt="" class="img-fluid">
                       </div>
                       <div class="service-txt">
                         <h4 class="service-title">{{$service->name}}</h4>
@@ -160,10 +160,10 @@
   <section class="back-home">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
-          <img src="assets/img/New/ceo.jpg" alt="" class="ceo-image">
+        <div class="col-md-5 ceo-img">
+          <img src="{{asset('assets/img/New/ceo.png')}}" alt="" class="ceo-image">
         </div>
-        <div class="col-md-6 offset-md-1">
+        <div class="col-lg-6 col-12 offset-md-1">
           <div class="about-con">
             <span>ABOUT US</span>
             <h2>WE ARE J_ARk</h2>
@@ -244,7 +244,7 @@
   <section class="about-three">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-12">
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
@@ -278,7 +278,7 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-6 col-12">
           <div class="faq">
             <span>FAQS</span>
             <h3>FREQUENTLY ASKED QUESTIONS</h3>
