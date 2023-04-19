@@ -27,6 +27,7 @@ Route::get('/', [WebController::class, 'index'])->name('index');
 Route::get('/index', [WebController::class, 'index'])->name('index');
 Route::get('/about', [WebController::class, 'about'])->name('about');
 Route::get('/services', [WebController::class, 'services'])->name('services');
+Route::get('/contact', [WebController::class, 'contact'])->name('contact');
 
 Route::controller(WebController::class)->group(function () {
 	Route::get('service-details/{slug}', 'service_details')->name('service-details');

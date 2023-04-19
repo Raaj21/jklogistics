@@ -17,7 +17,7 @@
                 <li><a href="{{ route('about') }}">ABOUT US</a></li>
                 <li><a href="{{route('services')}}">SERVICE</a></li>
                 <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="{{route('contact')}}">CONTACT</a></li>
               </ul>
             </div>
           </div>

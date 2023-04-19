@@ -1,0 +1,10 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.excludeLanguages": [
+        "php",
+        "markdown",
+        "html"
+    ],
+    "php.problems.scope": "all"
+}

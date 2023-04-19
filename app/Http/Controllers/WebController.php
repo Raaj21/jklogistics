@@ -43,4 +43,8 @@ class WebController extends Controller
         return view('service-detail',compact('services','servicedetail','id'));
 
     }
+
+    public function contact(){
+        return view('contact');
+    }
 }

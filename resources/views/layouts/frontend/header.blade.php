@@ -96,7 +96,7 @@
 
                       <li id="menu-item-209"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
-                          title="CONTACT" href="#">CONTACT</a>
+                          title="CONTACT" href="{{route('contact')}}">CONTACT</a>
                         </li>
 
                     </ul>
@@ -166,7 +166,7 @@
 </nav>
 </div>
 
-  
+
 
 
 
