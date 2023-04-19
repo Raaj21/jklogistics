@@ -290,7 +290,7 @@
                   <h2 class="mb-0">
                     <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                      Why choose this? </button>
+                      Why choose this? <i class="fa fa-plus"></i> </button>
                   </h2>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -309,7 +309,7 @@
                   <h2 class="mb-0">
                     <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse"
                       data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Is it costly? </button>
+                      Is it costly? <i class="fa fa-plus"></i> </button>
                   </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -327,7 +327,7 @@
                   <h2 class="mb-0">
                     <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse"
                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      When usally product reach? </button>
+                      When usally product reach? <i class="fa fa-plus"></i> </button>
                   </h2>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">

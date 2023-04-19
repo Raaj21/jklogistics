@@ -56,6 +56,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.js"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="{{url('assets/vendor/aos/aos.js')}}"></script>
 
   <script src=" {{url('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
@@ -129,6 +131,37 @@
     }
   }
 
+
+
+
+
+  $(document).ready(function () {
+  // Add minus icon for collapse element which is open by default
+  $(".collapse.show").each(function () {
+    $(this)
+      .prev(".card-header")
+      .find(".fa")
+      .addClass("fa-minus")
+      .removeClass("fa-plus");
+  });
+
+  // Toggle plus minus icon on show hide of collapse element
+  $(".collapse")
+    .on("show.bs.collapse", function () {
+      $(this)
+        .prev(".card-header")
+        .find(".fa")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+    })
+    .on("hide.bs.collapse", function () {
+      $(this)
+        .prev(".card-header")
+        .find(".fa")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    });
+});
 
 
 
