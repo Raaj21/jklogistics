@@ -123,7 +123,7 @@
 
 
   <div class="container-fluid second-header" id = "header">
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1f415f;">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1f415f;">
   <a href="{{ route('index') }}">
                   <img src="{{ asset('assets/img/New/Logo.png') }}" alt="">
                 </a>
@@ -135,17 +135,17 @@
   <ul class="navbar-nav ml-auto ">
                       <li id="menu-item-172"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-172">
-                        <a title="HOME" href="{{ route('index') }}">HOME</a>
+                        <a title="HOME" href="{{ route('index') }}"> <i class="fa fa-home"></i> HOME</a>
                       </li>
 
                       <li id="menu-item-193"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a
-                          title="ABOUT US" href="{{ route('about') }}">ABOUT US</a>
+                          title="ABOUT US" href="{{ route('about') }}"> <i class="fa fa-info"></i> ABOUT US</a>
                       </li>
 
                       <li id="menu-item-194"
                         class="dropdown-toggle ser menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                        <a title="SERVICES" href="{{route('services')}}">SERVICES</a>
+                        <a title="SERVICES" href="{{route('services')}}"><i class="fa fa-wrench"></i> SERVICES</a>
                         <ul role="menu" class="submenu">
                         @foreach (\App\Models\Servicemaster::all() as $key => $service)
                           <li id="menu-item-195"
@@ -158,7 +158,7 @@
 
                       <li id="menu-item-209"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
-                          title="CONTACT" href="#">CONTACT</a>
+                          title="CONTACT" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
                         </li>
 
                     </ul>

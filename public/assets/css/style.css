@@ -281,6 +281,7 @@ a.boxed-btn:hover::after {
   color: #fff;
   line-height: 28px;
   margin-bottom: 32px;
+  text-align: justify;
 }
 
 .back-home h5 {
@@ -328,6 +329,7 @@ a.boxed-btn:hover::after {
 .testimonial-section p {
   color: #4e5861;
   line-height: 28px;
+  text-align: justify;
 }
 
 .testimonial-section h5 {
@@ -605,6 +607,7 @@ a.boxed-btn:hover::after {
 .about-three p {
   color: #4e5861;
   line-height: 28px;
+  text-align: justify;
 }
 
 .about-three .dummy-design {
@@ -626,6 +629,7 @@ a.boxed-btn:hover::after {
   padding: 15px 0;
   font-size: 17px;
   color: #4e5861;
+  text-align: justify;
 }
 
 .dummy .dummy-design {
@@ -833,6 +837,7 @@ a.boxed-btn:hover::after {
 
 .footer p {
   color: #b7cee1;
+  text-align: justify;
 }
 
 .footer h4 {
@@ -1161,6 +1166,7 @@ a.readmore::after {
 
 .detail-two p {
   line-height: 28px;
+  text-align: justify;
 }
 
 .detail-two .overview {
@@ -2915,6 +2921,10 @@ ul.search-cart-area {
   /* align-items: center; */
 }
 
+.navbar-dark .navbar-toggler{
+  border: none !important;
+}
+
 .navbar li {
   position: relative;
 }
@@ -2923,7 +2933,7 @@ ul.search-cart-area {
 .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
@@ -2934,9 +2944,9 @@ ul.search-cart-area {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navbar a:hover,
