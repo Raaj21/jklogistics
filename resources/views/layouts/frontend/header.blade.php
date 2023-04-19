@@ -59,7 +59,7 @@
                       </div>
                     </div>
                     <div class="col-lg-4">
-                      <a href="#" class="boxed-btn"><span>Get a quote</span></a>
+                      <a href="{{ route('quote') }}" class="boxed-btn"><span>Get a quote</span></a>
                     </div>
                   </div>
                 </div>
@@ -68,7 +68,7 @@
 
             <div class="navbar-area">
               <div class="row justify-content-end">
-                <div class="col-lg-9 d-lg-block d-none">
+                <div class="col-lg-12 d-lg-block d-none">
                   <nav class="main-menu" id="mainMenu">
                     <ul class=" ">
                       <li id="menu-item-172"
@@ -83,6 +83,19 @@
 
                       <li id="menu-item-194"
                         class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                        <a title="SERVICES" href="{{route('services')}}">BRANCHES</a>
+                        <ul role="menu" class="submenu">
+                        @foreach (\App\Models\Servicemaster::all() as $key => $service)
+                          <li id="menu-item-195"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a
+                              title="{{$service->name}}" href="{{ url('service-details/'.$service->id) }}" aria-haspopup="true"
+                              aria-expanded="false">{{$service->name}}</a></li>
+                              @endforeach
+                        </ul>
+                      </li>
+
+                      <li id="menu-item-194"
+                        class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
                         <a title="SERVICES" href="{{route('services')}}">SERVICES</a>
                         <ul role="menu" class="submenu">
                         @foreach (\App\Models\Servicemaster::all() as $key => $service)
@@ -92,6 +105,11 @@
                               aria-expanded="false">{{$service->name}}</a></li>
                               @endforeach
                         </ul>
+                      </li>
+
+                      <li id="menu-item-193"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a
+                          title="TRACK AND RACE" href="{{ route('track') }}">TRACK & RACE</a>
                       </li>
 
                       <li id="menu-item-209"
@@ -156,10 +174,33 @@
                         </ul>
                       </li>
 
+                      <li id="menu-item-194"
+                        class="dropdown-toggle d-flex menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                        <a title="SERVICES" href="{{route('services')}}">BRANCHES</a>
+                        <ul role="menu" class="submenu">
+                        @foreach (\App\Models\Servicemaster::all() as $key => $service)
+                          <li id="menu-item-195"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a
+                              title="{{$service->name}}" href="{{ url('service-details/'.$service->id) }}" aria-haspopup="true"
+                              aria-expanded="false">{{$service->name}}</a></li>
+                              @endforeach
+                        </ul>
+                      </li>
+
+                      <li id="menu-item-193"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a
+                          title="TRACK AND RACE" href="{{ route('track') }}"><i class="fa fa-truck"></i> TRACK & RACE</a>
+                      </li>
+
                       <li id="menu-item-209"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
                           title="CONTACT" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
-                        </li>
+                      </li>
+
+                      <li id="menu-item-209"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
+                          title="GET A QUOTE" href="{{ route('quote') }}"><i class="fa fa-quote-left"></i> GET A QUOTE</a>
+                      </li>
 
                     </ul>
   </div>

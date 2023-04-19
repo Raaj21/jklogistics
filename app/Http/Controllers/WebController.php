@@ -47,4 +47,11 @@ class WebController extends Controller
     public function contact(){
         return view('contact');
     }
+    public function track(){
+        return view('track');
+    }
+
+    public function quote(){
+        return view('quote');
+    }
 }
