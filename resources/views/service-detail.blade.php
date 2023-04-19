@@ -28,31 +28,23 @@
   <section class="detail-two">
     <div class="container">
       <div class="row">
+        <?php
+        $i = 0;
+        ?>
       @foreach($servicedetail as $detaildata)
         <div class="col-xl-7 col-lg-8">
           <div class="img-wrapper">
-            <img src="assets/img/New/ServiceDetails/description-1.jpg" alt="" class="img-fluid">
+            <img src="{{asset($detaildata->image)}}" alt="" class="img-fluid">
           </div>
 
           <div class="secure">
             <h2>{{ $detaildata->title }}</h2>
             <p>{!! ($detaildata->description)!!}</p>
           </div>
-          <div class="overview">
-            <h3>OVERVIEW</h3>
-            <p>Full Truck Loads by road solutions. We are operate world wide. With some 450.000 shipments a year,
-              Transport is one of the biggest forwarders in Europe and abroad and is particularly active in transport &
-              logistics services.</p>
-            <ul class="overview-points">
-              <li>We provide innovative solutions with the best</li>
-              <li>We offer our clients support in destination marketing</li>
-              <li>promoting unique story each destination</li>
-              <li>Strong partnerships with international agencies</li>
-            </ul>
-          </div>
-        </div>
-        @endforeach
 
+        </div>
+
+@if($i == 0)
         <div class="col-xl-4 offset-xl-1 col-lg-4">
           <div class="category-sidebar">
             <ul class="service_sidebar">
@@ -82,6 +74,9 @@
             </div>
           </div>
         </div>
+        @endif
+        <?php $i++;?>
+        @endforeach
       </div>
     </div>
   </section>

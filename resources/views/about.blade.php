@@ -11,7 +11,7 @@
             <nav>
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="{{route('home')}}">Home</a>
                 </li>
                 <li class="breadcrumb-item active">
                   About Us
@@ -24,31 +24,7 @@
     </div>
   </section>
 
-  <!-- <section class="about-two">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-con">
-            <span>ABOUT US</span>
-            <h2>WE ARE J_ARk</h2>
-            <p>J-ARK will quickly respond to customer needs with grit and passion and become a global logistics company
-            </p>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-            </p>
-            <img src="assets/img/New/about-us/signature-2.png" alt="" class="img-fluid">
-            <h5>DAVID ANDERSON</h5>
-            <span>Founder & CEO</span>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/img/New/about-us/about.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section> -->
+
 
   <section class="about-three" data-aos="fade-up">
     <div class="container">
@@ -61,7 +37,7 @@
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
-                <img src="assets/img/New/about-us/Mission.png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/Mission.png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10" style="cursor: pointer;">
                 <div class="box-content">
@@ -78,7 +54,7 @@
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
-                <img src="assets/img/New/about-us/Vision.png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/Vision.png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <div class="box-content">
@@ -94,7 +70,7 @@
           <div class="box">
             <div class="row">
               <div class="col-md-2 pt-2">
-                <img src="assets/img/New/about-us/Vision.png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/Vision.png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <div class="box-content">
@@ -132,7 +108,7 @@
         </div>
 
         <div class="col-md-4 dummy-image">
-          <img src="assets/img/New/ceo.png" alt="" class="img-fluid">
+          <img src="{{asset('assets/img/New/ceo.png')}}" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -152,7 +128,7 @@
             <h2>WHY CHOOSE US</h2>
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (3).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (3).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>24/7 SUPPORT</h4>
@@ -163,7 +139,7 @@
 
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (4).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (4).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>ON TIME DELIVERY</h4>
@@ -174,7 +150,7 @@
 
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (5).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (5).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>GLOBAL SERVICE</h4>
@@ -243,12 +219,12 @@
           <div id="developerCarousel" data-ride="carousel" class="carousel slide carousel-fade">
             <div class="carousel-inner">
 
-              <div class="carousel-item active">
+              <div class="carousel-item ">
                 <div class="row rowFix">
                   <div class="col-lg-4 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
                     <div class="single-service wow fadeInRight">
                       <div class="img-wrapper">
-                        <img src="assets/img/New/Services/service_1.jpg" alt="" class="img-fluid">
+                        <img src="{{asset('assets/img/New/Services/service_1.jpg')}}" alt="" class="img-fluid">
                       </div>
                       <div class="service-txt">
                         <h4 class="service-title">Mumbai</h4>
@@ -265,7 +241,7 @@
                   <div class="col-lg-4 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
                     <div class="single-service wow fadeInRight">
                       <div class="img-wrapper">
-                        <img src="assets/img/New/Services/service_4.jpg" alt="" class="img-fluid">
+                        <img src="{{asset('assets/img/New/Services/service_4.jpg')}}" alt="" class="img-fluid">
                       </div>
                       <div class="service-txt">
                         <h4 class="service-title">Bangalore</h4>
@@ -282,7 +258,7 @@
                   <div class="col-lg-4 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
                     <div class="single-service wow fadeInRight">
                       <div class="img-wrapper">
-                        <img src="assets/img/New/Services/service_2.jpg" alt="" class="img-fluid">
+                        <img src="{{asset('assets/img/New/Services/service_2.jpg')}}" alt="" class="img-fluid">
                       </div>
                       <div class="service-txt">
                         <h4 class="service-title">Delhi</h4>
@@ -298,12 +274,12 @@
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div class="carousel-item active">
                 <div class="row rowFix">
                   <div class="col-lg-4 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
                     <div class="single-service wow fadeInRight">
                       <div class="img-wrapper">
-                        <img src="assets/img/New/Services/service_6.jpg" alt="" class="img-fluid">
+                        <img src="{{asset('assets/img/New/Services/service_6.jpg')}}" alt="" class="img-fluid">
                       </div>
                       <div class="service-txt">
                         <h4 class="service-title">WARE HOUSING</h4>

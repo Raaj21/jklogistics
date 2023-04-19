@@ -30,7 +30,7 @@
             <h2>WHY CHOOSE US</h2>
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (3).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (3).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>24/7 SUPPORT</h4>
@@ -41,7 +41,7 @@
 
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (4).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (4).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>ON TIME DELIVERY</h4>
@@ -52,7 +52,7 @@
 
             <div class="row mt-5" data-aos="fade-up">
               <div class="col-md-2">
-                <img src="assets/img/New/about-us/unnamed (5).png" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/New/about-us/unnamed (5).png')}}" alt="" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <h4>GLOBAL SERVICE</h4>

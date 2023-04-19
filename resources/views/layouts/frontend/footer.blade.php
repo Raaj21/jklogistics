@@ -63,7 +63,7 @@
       </div>
 
       <div class="bottom-footer">
-        <p class="text-center">© Copyrights 2023JARk. All rights reserved.</p>
+        <p class="text-center">© Copyrights 2023J-ARK. All rights reserved.</p>
       </div>
     </div>
   </section>
