@@ -28,8 +28,11 @@
               <img src="assets/img/New/Contact/unnamed (6).png" alt="" class="img-fluid">
             </div>
             <div class="col-md-7 info-txt">
-              <p>143 castle road 517</p>
-              <p>district, kiyev port south Canada</p>
+              <p>7th Floor, Kattima Isana Building,</p>
+              <p> No. 497 & 498,
+                Poonamallee High Road, Arumbakkam,
+                Chennai – 600106. Tamil Nadu, India
+                </p>
             </div>
           </div>
         </div>
@@ -51,9 +54,8 @@
               <img src="assets/img/New/Contact/unnamed (8).png" alt="" class="img-fluid">
             </div>
             <div class="col-md-7 info-txt">
-              <p>info@yourmail.com</p>
-              <p>transpix@yourmail2.com</p>
-              <p>ship@yourmail3.com</p>
+              <p> info@j-ark.in</p>
+
             </div>
           </div>
         </div>
@@ -111,9 +113,8 @@
 
         <div class="col-md-6 col-12 text-center">
           <div class="map-wrapper">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55130.5692649948!2d90.38700538220155!3d23.799024958362683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2zxJDhuq9jLWNhLCBCxINuZy1sYS3EkcOpdA!5e0!3m2!1svi!2s!4v1574389376653!5m2!1svi!2s"
-              frameborder="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.5878543911971!2d80.20817956960529!3d13.076900699203025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f449933f899%3A0xd2180b2573c9de90!2sTaewoong%20logistics!5e0!3m2!1sen!2sin!4v1681989883836!5m2!1sen!2sin"  frameborder="0" ></iframe>
+
           </div>
         </div>
       </div>

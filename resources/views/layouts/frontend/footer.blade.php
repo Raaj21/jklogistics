@@ -40,21 +40,24 @@
                   <div class="icon-wrapper">
                     <i class="flaticon-placeholder"></i>
                   </div>
-                  <p>143 castle road 517 district, kiyev port south Canada</p>
+                  <p>7th Floor, Kattima Isana Building, No. 497 & 498,
+                    Poonamallee High Road, Arumbakkam,
+                    Chennai – 600106. Tamil Nadu, India
+                    </p>
                 </div>
 
-                <div class="contact-info">
+                {{-- <div class="contact-info">
                   <div class="icon-wrapper">
                     <i class="flaticon-placeholder"></i>
                   </div>
                   <p>+00 12 123 4567</p>
-                </div>
+                </div> --}}
 
                 <div class="contact-info">
                   <div class="icon-wrapper">
                     <i class="flaticon-placeholder"></i>
                   </div>
-                  <p>Info@yourmail.com</p>
+                  <p>info@j-ark.in</p>
                 </div>
               </div>
             </div>
