@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Home Codes -->
-<section class="home-one">
+  <!-- <section class="home-one">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-lg-8 col-xl-6">
@@ -16,7 +16,85 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+
+
+
+
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+        <section class="home-one">
+         <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-8 col-xl-6">
+          <div class="hero-text">
+            <span class="top">JR LOGISTICS AND PVT Ltd</span>
+            <h1>NO# 1 SOLUTION FOR TRANSPORT</h1>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+              <span>SEE SERVICES</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+        </div>
+
+        <div class="carousel-item"">
+          <section class="home-one sec">
+         <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-8 col-xl-6">
+          <div class="hero-text">
+            <span class="top" style="color: black;">JR LOGISTICS AND PVT Ltd</span>
+            <h1 style="color: black;">NO# 1 SOLUTION FOR TRANSPORT</h1>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+              <span>SEE SERVICES</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        </div>
+
+        <div class="carousel-item">
+        <section class="home-one thi">
+         <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-8 col-xl-6">
+          <div class="hero-text">
+            <span class="top" style="color: black;">JR LOGISTICS AND PVT Ltd</span>
+            <h1 style="color: black;">NO# 1 SOLUTION FOR TRANSPORT</h1>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+              <span>SEE SERVICES</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev previous-arrow" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next next-arrow" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+
+
+
 
   <section class="about-four">
     <div class="container mt">
@@ -176,7 +254,7 @@
               rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
               explicabo.
             </p>
-            <img src="assets/img/New/signature.png" alt="" class="img-fluid">
+            <!-- <img src="assets/img/New/signature.png" alt="" class="img-fluid"> -->
             <h5>JUNG YONG HUNING </h5>
             <span>Founder &amp; CEO</span>
           </div>
@@ -185,7 +263,7 @@
     </div>
   </section>
 
-  <div class="testimonial-section">
+  <!-- <div class="testimonial-section">
     <div class="container">
       <div class="testimonial-container">
         <div class="row">
@@ -218,14 +296,6 @@
                     <div class="designation">Director</div>
                   </div>
                 </div>
-                <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a> -->
               </div>
 
             </div>
@@ -239,7 +309,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <section class="about-three">
     <div class="container">

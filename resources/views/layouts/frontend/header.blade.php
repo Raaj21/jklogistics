@@ -1,7 +1,7 @@
 <!-- Harish Header New Codes -->
 
 <div class="header-area">
-    <div class="info-bar">
+    <!-- <div class="info-bar">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-8">
@@ -19,11 +19,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="support-nav-area" style="background-color: #1f415f;" id = "header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-6">
+          <div class="col-lg-1 col-6">
             <div class="logo-wrapper mt-4">
               <div class="logo-wrapper-inner">
                 <a href="{{ route('index') }}">
@@ -32,8 +32,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-9 col-6 position-lg-relative position-static">
-            <div class="support-bar">
+          <div class="col-lg-11 col-6 position-lg-relative position-static">
+            <!-- <div class="support-bar">
               <div class="row">
                 <div class="offset-xl-4 col-xl-8 offset-2 col-10">
                   <div class="row">
@@ -64,7 +64,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="navbar-area">
               <div class="row justify-content-end">
@@ -81,17 +81,21 @@
                           title="ABOUT US" href="{{ route('about') }}">ABOUT US</a>
                       </li>
 
-                      <li id="menu-item-194"
-                        class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                        <a title="SERVICES" href="{{route('services')}}">BRANCHES</a>
+                      <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                        <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
+
                         <ul role="menu" class="submenu">
-                        @foreach (\App\Models\Servicemaster::all() as $key => $service)
-                          <li id="menu-item-195"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a
-                              title="{{$service->name}}" href="{{ url('service-details/'.$service->id) }}" aria-haspopup="true"
-                              aria-expanded="false">{{$service->name}}</a></li>
-                              @endforeach
-                        </ul>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">SOUTH REGION</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">NORTH REGION</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">WEST REGION</a>
+                                </li>
+                          </ul>
+
                       </li>
 
                       <li id="menu-item-194"
@@ -110,6 +114,11 @@
                       <li id="menu-item-193"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a
                           title="TRACK AND RACE" href="{{ route('track') }}">TRACK & RACE</a>
+                      </li>
+
+                      <li id="menu-item-209"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
+                          title="GET A QUOTE" href="{{ route('quote') }}">GET A QUOTE</a>
                       </li>
 
                       <li id="menu-item-209"
@@ -161,22 +170,49 @@
                           title="ABOUT US" href="{{ route('about') }}"> <i class="fa fa-info"></i> ABOUT US</a>
                       </li>
 
+                      <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                        <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
+
+                        <ul role="menu" class="submenu">
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">SOUTH REGION</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">NORTH REGION</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">WEST REGION</a>
+                                </li>
+                          </ul>
+
+                      </li>
+
+                      <!-- <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                        <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
+
+                        <ul role="menu" class="submenu dropdown-toggle t menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                            <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195">
+                              <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">SOUTHERN</a>
+
+                              <ul role="menu" class="submenu subb-menu">
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">CHENNAI</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">BANGLORE</a>
+                                </li>
+                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">COCHIN</a>
+                                </li>
+                              </ul>
+                            </li>
+                        </ul>
+                        
+                      </li> -->
+
                       <li id="menu-item-194"
                         class="dropdown-toggle ser menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
                         <a title="SERVICES" href="{{route('services')}}"><i class="fa fa-wrench"></i> SERVICES</a>
-                        <ul role="menu" class="submenu">
-                        @foreach (\App\Models\Servicemaster::all() as $key => $service)
-                          <li id="menu-item-195"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a
-                              title="{{$service->name}}" href="{{ url('service-details/'.$service->id) }}" aria-haspopup="true"
-                              aria-expanded="false">{{$service->name}}</a></li>
-                              @endforeach
-                        </ul>
-                      </li>
-
-                      <li id="menu-item-194"
-                        class="dropdown-toggle d-flex menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                        <a title="SERVICES" href="{{route('services')}}">BRANCHES</a>
                         <ul role="menu" class="submenu">
                         @foreach (\App\Models\Servicemaster::all() as $key => $service)
                           <li id="menu-item-195"
@@ -194,25 +230,18 @@
 
                       <li id="menu-item-209"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
-                          title="CONTACT" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
+                          title="GET A QUOTE" href="{{ route('quote') }}"><i class="fa fa-quote-left"></i> GET A QUOTE</a>
                       </li>
 
                       <li id="menu-item-209"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a
-                          title="GET A QUOTE" href="{{ route('quote') }}"><i class="fa fa-quote-left"></i> GET A QUOTE</a>
+                          title="CONTACT" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
                       </li>
 
                     </ul>
   </div>
 </nav>
 </div>
-
-
-
-
-
-
-
 
 
 

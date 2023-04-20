@@ -207,11 +207,11 @@
       </div>
     </div>
   </section>
-  <section class="services-two">
+  
+  <!-- <section class="services-two">
     <div class="container">
       <div class="col-md-6">
         <h2>OUR BRANCHES </h2>
-        <!-- <h2>WHAT WE PROVIDE</h2> -->
       </div>
 
       <div class="row row-testicont">
@@ -231,9 +231,6 @@
                         <p class="service-para">
                           SECURE AND SAFE AIR Freight We offers a host of logistic management services and supply chain
                           solutions.... </p>
-                        <!-- <a href="#" class="readmore">
-                          READ MORE
-                        </a> -->
                       </div>
                     </div>
                   </div>
@@ -248,9 +245,6 @@
                         <p class="service-para">
                           SECURE AND SAFE AIR Freight We offers a host of logistic management services and supply chain
                           solutions.... </p>
-                        <!-- <a href="#" class="readmore">
-                          READ MORE
-                        </a> -->
                       </div>
                     </div>
                   </div>
@@ -265,9 +259,7 @@
                         <p class="service-para">
                           SECURE AND SAFE AIR Freight We offers a host of logistic management services and supply chain
                           solutions.... </p>
-                        <!-- <a href="#" class="readmore">
-                          READ MORE
-                        </a> -->
+             
                       </div>
                     </div>
                   </div>
@@ -332,22 +324,10 @@
             </div>
           </div>
         </div>
-
-        <!-- <a href="#devcarousel" role="button" data-slide="prev" class="carousel-control-prev">
-          <span aria-hidden="true" class="carousel-control-prev-icon">
-            <img src="assets/img/New/arrow-left.png" alt="">
-          </span>
-        </a>
-
-        <a href="#devcarousel" role="button" data-slide="next" class="carousel-control-next">
-          <span aria-hidden="true" class="carousel-control-next-icon">
-            <img src="assets/img/New/arrow-right.png" alt="">
-          </span>
-        </a> -->
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <section class="services-two">
     <div class="container">
