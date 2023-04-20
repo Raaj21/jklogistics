@@ -3,7 +3,7 @@
  <section class="contact-one">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-8 col-lg-8 col-xl-6">
           <div class="contact-txt">
             <span>Contact</span>
             <h1>keep in touch with us for help</h1>
@@ -22,7 +22,7 @@
   <section class="contact-two">
     <div class="container">
       <div class="row no-gutters">
-        <div class="col-md-4">
+        <div class="col-md-4 pd">
           <div class="row justify-content-center">
             <div class="col-md-3 img">
               <img src="assets/img/New/Contact/unnamed (6).png" alt="" class="img-fluid">
@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 pd">
           <div class="row justify-content-center">
             <div class="col-md-3 img">
               <img src="assets/img/New/Contact/unnamed (7).png" alt="" class="img-fluid">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 pd">
           <div class="row justify-content-center">
             <div class="col-md-3 img">
               <img src="assets/img/New/Contact/unnamed (8).png" alt="" class="img-fluid">
@@ -99,7 +99,7 @@
                     <textarea type="text" placeholder="Comments" id="comment" name="comment"></textarea>
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                   <div class="form-element">
                     <button><a href="#">SUBMIT</a></button>
                   </div>
@@ -109,11 +109,11 @@
           </form>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 col-12 text-center">
           <div class="map-wrapper">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55130.5692649948!2d90.38700538220155!3d23.799024958362683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2zxJDhuq9jLWNhLCBCxINuZy1sYS3EkcOpdA!5e0!3m2!1svi!2s!4v1574389376653!5m2!1svi!2s"
-              frameborder="0" width="540px" height="524px"></iframe>
+              frameborder="0"></iframe>
           </div>
         </div>
       </div>
