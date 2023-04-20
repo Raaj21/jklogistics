@@ -401,19 +401,19 @@
               <div class="carousel-item active">
                 <div class="row rowFix">
                     <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-1.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-01.jpg')}}" alt="" class="img-fluid">
                   </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-2.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-02.jpg')}}" alt="" class="img-fluid">
                   </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-3.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-03.jpg')}}" alt="" class="img-fluid">
                   </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-4.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-04.jpg')}}" alt="" class="img-fluid">
                     </div>
                 </div>
               </div>
@@ -422,19 +422,65 @@
               <div class="carousel-item">
                 <div class="row rowFix">
                     <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-4.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-05.jpg')}}" alt="" class="img-fluid">
                     </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-3.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-06.jpg')}}" alt="" class="img-fluid">
                   </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-2.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-07.jpg')}}" alt="" class="img-fluid">
                   </div>
 
                   <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/New/partner-1.png')}}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-08.jpg')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row rowFix">
+                    <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-09.jpg')}}" alt="" class="img-fluid">
+                    </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-10.jpg')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-11.jpg')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-12.jpg')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row rowFix">
+                    <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-13.jpg')}}" alt="" class="img-fluid">
+                    </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-14.jpg')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-15.jpg')}}" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-16.jpg')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row rowFix">
+                    <div class="col-lg-3 col-md-6 mt-3 aos-init aos-animate" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/New/CUSTOMERS-17.jpg')}}" alt="" class="img-fluid">
                     </div>
                 </div>
               </div>
