@@ -1,29 +1,29 @@
 @extends('layouts.frontend.app')
 @section('content')
   <!-- ServicesDetails Codes -->
-  <section class="detail-one">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-6">
-          <div class="detail-text">
-            <span>SERVICES</span>
-            <h1>WE PROVIDE BEST SERVICES</h1>
+  <!--<section class="detail-one">-->
+  <!--  <div class="container">-->
+  <!--    <div class="row">-->
+  <!--      <div class="col-md-8 col-lg-8 col-xl-6">-->
+  <!--        <div class="detail-text">-->
+  <!--          <span>SERVICES</span>-->
+  <!--          <h1>WE PROVIDE BEST SERVICES</h1>-->
 
-            <nav>
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="breadcrumb-item active">
-                  Services
-                </li>
-              </ol>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!--          <nav>-->
+  <!--            <ol class="breadcrumb">-->
+  <!--              <li class="breadcrumb-item">-->
+  <!--                <a href="#">Home</a>-->
+  <!--              </li>-->
+  <!--              <li class="breadcrumb-item active">-->
+  <!--                Services-->
+  <!--              </li>-->
+  <!--            </ol>-->
+  <!--          </nav>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</section>-->
 
   <section class="detail-two">
     <div class="container">
@@ -49,8 +49,8 @@
           <div class="category-sidebar">
             <ul class="service_sidebar">
                 @foreach($services as $servicedata)
-              <li class="<?php if($servicedata->id == $id){ echo 'active' ;}?>">
-                <a href="{{$servicedata->id}}">{{$servicedata->name}}</a>
+              <li class="<?php if($servicedata->id == $id){ echo 'active' ;}else {echo "services"; }?>">
+              <i class="fa fa-wrench icon"></i><a href="{{$servicedata->id}}">{{$servicedata->name}}</a>
               </li>
              @endforeach
             </ul>

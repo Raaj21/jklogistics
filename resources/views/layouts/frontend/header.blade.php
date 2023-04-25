@@ -81,7 +81,7 @@
                           title="ABOUT US" href="{{ route('about') }}">ABOUT US</a>
                       </li>
 
-                      <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
+                      <!-- <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
                         <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
 
                         <ul role="menu" class="submenu">
@@ -96,7 +96,77 @@
                                 </li>
                           </ul>
 
-                      </li>
+                      </li> -->
+
+                      <li id="menu-item-172"
+												class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-172 dropdown dropdown-submenus">
+												<a title="" href="#">BRANCHES</a></a>
+												<ul role="menu" class="submenu">
+													<li id="menu-item-173"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-173 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">SOUTHERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-178"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-178">
+																<a title="" href="../index.html">1.CHENNAI</a></a>
+															</li>
+															<li id="menu-item-185"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185">
+																<a title="" href="../home-2/index.html">2.BANGLORE
+																	</a></a></li>
+															<li id="menu-item-186"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186">
+																<a title="" href="../home-3/index.html">3.COIMBATORE
+																	</a></a></li>
+														</ul>
+													</li>
+													
+													
+													<li id="menu-item-176"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-176 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">NORTHERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-179"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
+																<a title="" href="../home-10/index.html">HOME
+																	10</a></a></li>
+															<li id="menu-item-180"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180">
+																<a title="" href="../home-11/index.html">HOME
+																	11</a></a></li>
+															<li id="menu-item-181"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181">
+																<a title="" href="../home-12/index.html">HOME
+																	12</a></a></li>
+														</ul>
+													</li>
+                          
+													<li id="menu-item-177"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-177 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">WESTERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-182"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182">
+																<a title="" href="../home-13/index.html">HOME
+																	13</a></a></li>
+															<li id="menu-item-183"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183">
+																<a title="" href="../home-14/index.html">HOME
+																	14</a></a></li>
+															<li id="menu-item-184"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184">
+																<a title="" href="../home-15/index.html">HOME
+																	15</a></a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
 
                       <li id="menu-item-194"
                         class="dropdown-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
@@ -170,45 +240,75 @@
                           title="ABOUT US" href="{{ route('about') }}"> <i class="fa fa-info"></i> ABOUT US</a>
                       </li>
 
-                      <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                        <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
-
-                        <ul role="menu" class="submenu">
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">SOUTH REGION</a>
-                                </li>
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">NORTH REGION</a>
-                                </li>
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">WEST REGION</a>
-                                </li>
-                          </ul>
-
-                      </li>
-
-                      <!-- <li id="menu-item-194" class="dropdown-toggle menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                        <a title="SERVICES" href="http://localhost/jklogistics/public/services">BRANCHES</a>
-
-                        <ul role="menu" class="submenu dropdown-toggle t menu-item menu-item-type-custom d-flex menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">
-                            <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195">
-                              <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">SOUTHERN</a>
-
-                              <ul role="menu" class="submenu subb-menu">
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">CHENNAI</a>
-                                </li>
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">BANGLORE</a>
-                                </li>
-                                <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                  <a title="SOUTHERN" href="http://localhost/jklogistics/public/service-details/5" aria-haspopup="true" aria-expanded="false">COCHIN</a>
-                                </li>
-                              </ul>
-                            </li>
-                        </ul>
-                        
-                      </li> -->
+                      <li id="menu-item-172"
+												class="dropdown-toggle menu-item menu-item-type-custom d-flex menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-172 dropdown dropdown-submenus">
+												<a title="" href="#">BRANCHES</a></a>
+												<ul role="menu" class="submenu">
+													<li id="menu-item-173"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-173 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">SOUTHERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-178"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-178">
+																<a title="" href="../index.html">1.CHENNAI</a></a>
+															</li>
+															<li id="menu-item-185"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185">
+																<a title="" href="../home-2/index.html">2.BANGLORE
+																	</a></a></li>
+															<li id="menu-item-186"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186">
+																<a title="" href="../home-3/index.html">3.COIMBATORE
+																	</a></a></li>
+														</ul>
+													</li>
+													
+													
+													<li id="menu-item-176"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-176 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">NORTHERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-179"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
+																<a title="" href="../home-10/index.html">HOME
+																	10</a></a></li>
+															<li id="menu-item-180"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180">
+																<a title="" href="../home-11/index.html">HOME
+																	11</a></a></li>
+															<li id="menu-item-181"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181">
+																<a title="" href="../home-12/index.html">HOME
+																	12</a></a></li>
+														</ul>
+													</li>
+                          
+													<li id="menu-item-177"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-177 dropdown dropdown-submenus">
+														<a title="" href="#" role="button"
+															aria-haspopup="true" aria-expanded="false">WESTERN
+															REGION<i class="fa fa-chevron-right"></i></a>
+														<ul role="menu" class="submenu">
+															<li id="menu-item-182"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182">
+																<a title="" href="../home-13/index.html">HOME
+																	13</a></a></li>
+															<li id="menu-item-183"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183">
+																<a title="" href="../home-14/index.html">HOME
+																	14</a></a></li>
+															<li id="menu-item-184"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184">
+																<a title="" href="../home-15/index.html">HOME
+																	15</a></a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
 
                       <li id="menu-item-194"
                         class="dropdown-toggle ser menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-194 dropdown dropdown-submenus">

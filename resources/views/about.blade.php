@@ -1,24 +1,53 @@
 @extends('layouts.frontend.app')
 @section('content')
  <!-- About us -->
- <section class="about-one">
+ <!--<section class="about-one">-->
+ <!--   <div class="container">-->
+ <!--     <div class="row">-->
+ <!--       <div class="col-md-8 col-lg-8 col-xl-6">-->
+ <!--         <div class="about-text">-->
+ <!--           <span>ABOUT US</span>-->
+ <!--           <h1>WE ARE TRANSPOT SERVICE PROVIDER</h1>-->
+ <!--           <nav>-->
+ <!--             <ol class="breadcrumb">-->
+ <!--               <li class="breadcrumb-item">-->
+ <!--                 <a href="{{route('home')}}">Home</a>-->
+ <!--               </li>-->
+ <!--               <li class="breadcrumb-item active">-->
+ <!--                 About Us-->
+ <!--               </li>-->
+ <!--             </ol>-->
+ <!--           </nav>-->
+ <!--         </div>-->
+ <!--       </div>-->
+ <!--     </div>-->
+ <!--   </div>-->
+ <!-- </section>-->
+
+   <section class="dummy">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-6">
-          <div class="about-text">
-            <span>ABOUT US</span>
-            <h1>WE ARE TRANSPOT SERVICE PROVIDER</h1>
-            <nav>
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="{{route('home')}}">Home</a>
-                </li>
-                <li class="breadcrumb-item active">
-                  About Us
-                </li>
-              </ol>
-            </nav>
-          </div>
+        <div class="col-md-12">
+          <h2>CEO Greeting</h2>
+          <p class="dummy-design">J-ARK will quickly respond to customer needs with grit and passion and become a global logistics company.</p>
+        </div>
+
+        <div class="col-md-8">
+          <p>Greetings ! This is Chairman, Jung Yong Hwang</p>
+
+          <p>Since the establishment of the comapny in 2008, it has grwon remarkably every year. As an integrated logistics company in India, we have been working on lgistics by responding to various needs of customers.</p>
+
+          <p>Since it foundation, all the company members in J-ARK have the grit of not giving up and handled the logistics accurately and quickly with enthusiasm despite all the difficulties.</p>
+
+          <p>The passion has built an unrivaled area that only J-ARK can do and the basis of this passion is the respect and love for people.</p>
+
+          <p>J-ARK will not grow the company, but also grow with our employees who work fro the company.</p>
+
+          <p>Thank You.</p>
+        </div>
+
+        <div class="col-md-4 dummy-image">
+          <img src="{{asset('assets/img/New/ceo.png')}}" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -85,34 +114,7 @@
     </div>
   </section>
 
-  <section class="dummy">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>CEO Greeting</h2>
-          <p class="dummy-design">J-ARK will quickly respond to customer needs with grit and passion and become a global logistics company.</p>
-        </div>
 
-        <div class="col-md-8">
-          <p>Greetings ! This is Chairman, Jung Yong Hwang</p>
-
-          <p>Since the establishment of the comapny in 2008, it has grwon remarkably every year. As an integrated logistics company in India, we have been working on lgistics by responding to various needs of customers.</p>
-
-          <p>Since it foundation, all the company members in J-ARK have the grit of not giving up and handled the logistics accurately and quickly with enthusiasm despite all the difficulties.</p>
-
-          <p>The passion has built an unrivaled area that only J-ARK can do and the basis of this passion is the respect and love for people.</p>
-
-          <p>J-ARK will not grow the company, but also grow with our employees who work fro the company.</p>
-
-          <p>Thank You.</p>
-        </div>
-
-        <div class="col-md-4 dummy-image">
-          <img src="{{asset('assets/img/New/ceo.png')}}" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="back"></section>
 
@@ -207,7 +209,6 @@
       </div>
     </div>
   </section>
-  
   <!-- <section class="services-two">
     <div class="container">
       <div class="col-md-6">
@@ -259,7 +260,11 @@
                         <p class="service-para">
                           SECURE AND SAFE AIR Freight We offers a host of logistic management services and supply chain
                           solutions.... </p>
+<<<<<<< HEAD
              
+=======
+
+>>>>>>> a779bcda2d1b7b33134c10ddeb8e849c36d3a3f7
                       </div>
                     </div>
                   </div>

@@ -127,9 +127,15 @@
 .home-one h1 {
   font-size: 68px;
   font-weight: 700;
-  margin-bottom: 37px;
+  margin-bottom: 10px;
   line-height: 1.1;
   color: #fff;
+}
+
+.home-one span{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 45px;
 }
 
 .home-one a.boxed-btn {
@@ -1054,6 +1060,8 @@ a.boxed-btn:hover::after {
   z-index: 2;
 }
 
+
+
 .services-two .single-service .service-txt h4 {
   text-transform: uppercase;
   font-weight: 700;
@@ -1188,6 +1196,12 @@ a.readmore::after {
   text-align: justify;
 }
 
+.detail-two .icon{
+  position: absolute;
+  z-index: 9999;
+  left: 35px;
+}
+
 .detail-two .overview {
   margin-top: 46px;
 }
@@ -1234,18 +1248,21 @@ ul.overview-points li::before {
 }
 
 .category-sidebar ul li {
-  display: block;
+  /* display: block; */
+  /* display: flex; */
   border-bottom: 1px solid #bcbfc2;
 }
 
 ul.service_sidebar li.active a {
   background-color: #58bed3;
   color: #fff;
+  width: 100%;
 }
 
 .category-sidebar ul li a:hover {
   background-color: #58bed3;
   color: #fff;
+  width: 100%;
 }
 
 .category-sidebar ul li a {
@@ -1264,7 +1281,7 @@ ul.service_sidebar li.active a:before {
   color: #fff !important;
 }
 
-.category-sidebar ul li a::before {
+/* .category-sidebar ul li a::before {
   position: absolute;
   left: 20px;
   content: "\f35a";
@@ -1274,7 +1291,7 @@ ul.service_sidebar li.active a:before {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-}
+} */
 
 .quote-sidebar {
   margin-top: 60px;
@@ -1961,6 +1978,7 @@ textarea {
 
 .navbar-area nav ul li.dropdown ul li.dropdown-submenus {
   position: relative;
+  width: 75%;
 }
 
 .navbar-area nav ul li.dropdown ul li.dropdown-submenus ul {
@@ -2809,6 +2827,10 @@ ul.search-cart-area {
     top: 100% !important;
     visibility: visible !important;
   }
+
+  .fa-wrench:before{
+    position: static !important;
+  }
 }
 
 /* @media (max-width: 991px) {
@@ -3214,4 +3236,10 @@ ul.search-cart-area {
   position: relative;
   bottom: 34px;
   right: 34px;
+}
+
+.fa-wrench:before{
+  position: relative;
+  top: 18px;
+}
 }

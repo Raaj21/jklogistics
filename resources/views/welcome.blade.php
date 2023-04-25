@@ -29,11 +29,12 @@
         <section class="home-one">
          <div class="container">
       <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-6">
+        <div class="col-md-8 col-lg-8 col-xl-10">
           <div class="hero-text">
-            <span class="top">JR LOGISTICS AND PVT Ltd</span>
-            <h1>NO# 1 SOLUTION FOR TRANSPORT</h1>
-            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+             <h1>J-ARK LOGISTICS  PVT Ltd</h1>
+            <span lass="top"  style="color: black;"> Total Logi Solution</span>
+             <br>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1s" href="{{route('services')}}">
               <span>SEE SERVICES</span>
             </a>
           </div>
@@ -43,15 +44,16 @@
   </section>
         </div>
 
-        <div class="carousel-item"">
+        <div class="carousel-item">
           <section class="home-one sec">
          <div class="container">
       <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-6">
+        <div class="col-md-8 col-lg-8 col-xl-10">
           <div class="hero-text">
-            <span class="top" style="color: black;">JR LOGISTICS AND PVT Ltd</span>
-            <h1 style="color: black;">NO# 1 SOLUTION FOR TRANSPORT</h1>
-            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+              <h1 style="color: black;">J-ARK LOGISTICS  PVT Ltd</h1>
+            <span lass="top"  style="color: black;"> Total Logi Solution</span>
+            <br>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1s" href="{{route('services')}}">
               <span>SEE SERVICES</span>
             </a>
           </div>
@@ -65,11 +67,12 @@
         <section class="home-one thi">
          <div class="container">
       <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-6">
+        <div class="col-md-8 col-lg-8 col-xl-10">
           <div class="hero-text">
-            <span class="top" style="color: black;">JR LOGISTICS AND PVT Ltd</span>
-            <h1 style="color: black;">NO# 1 SOLUTION FOR TRANSPORT</h1>
-            <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" href="{{route('services')}}">
+              <h1 style="color: black;">J-ARK LOGISTICS  PVT Ltd</h1>
+           <span lass="top"  style="color: black;"> Total Logi Solution</span>
+             <br>
+            <a class="wow fadeInUp boxed-btn" data-wow-duration="1s" href="{{route('services')}}">
               <span>SEE SERVICES</span>
             </a>
           </div>
